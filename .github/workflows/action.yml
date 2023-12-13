@@ -1,0 +1,9 @@
+name: Require CodeQL
+on:
+  pull_request: {}
+jobs:
+  codeql:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: department-of-veterans-affairs/sample-action@main
