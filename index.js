@@ -53,3 +53,5 @@ async function main() {
     }
     core.info(`The last analysis was ${days} days ago`)
 }
+
+main()
